@@ -91,10 +91,10 @@ header {
           header .navbar .dropdown-menu:before {
             display: none; } }
       header .navbar .dropdown-menu .dropdown-item:hover {
-        background: #6610f2;
+        background: #F78B80 ;
         color: #fff; }
       header .navbar .dropdown-menu .dropdown-item.active {
-        background: #6610f2;
+        background: #F78B80 ;
         color: #fff; }
       header .navbar .dropdown-menu a {
         padding-top: 7px;
@@ -130,7 +130,7 @@ header {
       font-size: 40px; } }
 
 .top-bar {
-  background: #6610f2;
+  background: #F78B80;
   padding: 10px 0; }
   .top-bar .social a, .top-bar .search-icon a {
     color: #fff;
