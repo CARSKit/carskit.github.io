@@ -1,13 +1,20 @@
 deepcarskit.model.neucf
 ===============================
 
-
-
-.. automodule:: deepcarskit.model.neucf.neucmfi
+.. automodule:: deepcarskit.model.neucf.neucmf0i
    :members:
    :undoc-members:
    :show-inheritance:
 
+.. automodule:: deepcarskit.model.neucf.neucmf0w
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: deepcarskit.model.neucf.neucmfi0
+   :members:
+   :undoc-members:
+   :show-inheritance:
 
 .. automodule:: deepcarskit.model.neucf.neucmfii
    :members:
@@ -15,21 +22,12 @@ deepcarskit.model.neucf
    :show-inheritance:
 
 
-
-.. automodule:: deepcarskit.model.neucf.neucmfw
+.. automodule:: deepcarskit.model.neucf.neucmfw0
    :members:
    :undoc-members:
    :show-inheritance:
-
 
 .. automodule:: deepcarskit.model.neucf.neucmfww
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-
-.. automodule:: deepcarskit.model.neucf
    :members:
    :undoc-members:
    :show-inheritance:
