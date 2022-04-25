@@ -3122,9 +3122,6 @@ body.mmm-open .mmm {
     margin-bottom: 0;
 }
 
-
-
-
 .markdown-list {
     display: flex;
     list-style: none;
@@ -3160,6 +3157,30 @@ body.mmm-open .mmm {
     opacity: 1;
 }
 
+
+.contact-social-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.contact-social-links li {
+    margin-right: 0.625rem;
+    border: none;
+}
+
+.contact-social-links li:last-child {
+    margin-right: 0;
+    border: none;
+}
+
+.contact-social-links li a {
+    display: flex;
+    width: 2.25rem;
+    height: 2.25rem;
+}
 
 .footer-social-links {
     display: flex;
