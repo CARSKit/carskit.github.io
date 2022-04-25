@@ -1,6 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
+    <link rel="stylesheet" href="assets/css/clip.css">
+
+    <meta charset="utf-8">
+
+    <title>CARSKit - Libraries for Context-Aware Recommendations</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon"> 
+
+    <link rel="stylesheet" href="assets/css/libs.css">
+<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preload" href="assets/fonts/istok-web-v15-latin/istok-web-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/istok-web-v15-latin/istok-web-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/montserrat-v15-latin/montserrat-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/montserrat-v15-latin/montserrat-v15-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DS4JBJ9GCK"></script>
@@ -12,259 +40,561 @@
   gtag('config', 'G-DS4JBJ9GCK');
 </script>
 
+</head>
 
-    <title>DeepCARSKit</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700|Inconsolata:400,700" rel="stylesheet"> 
+<body>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<main class="main">
+		
+		<div class="main-inner">
 
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<link rel="stylesheet" href="fonts/academicons/css/academicons.min.css">
-	
-	    <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery-3.2.1.min.js"></script>
-	
-	
-	
-	<style type="text/css">	
-.hiddencontent{
-  padding:5px;
+			<!-- Begin mobile main menu -->
+<nav class="mmm">
+    <div class="mmm-content">
+        <ul class="mmm-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="CARSKit.html">CARSKit</a></li>
+            <li><a href="DeepCARSKit.html">DeepCARSKit</a></li>
+            <li><a href="Sponsors.html">Sponsors</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </div>
+</nav><!-- End mobile main menu -->
+
+
+
+
+<!-- Begin header -->
+<header class="header">
+    <!-- Begin header top -->
+    <nav class="header-top">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <!-- Begin header top info -->
+                    <ul class="header-top-info">
+                        <li>
+                            <a href="mailto:DeepCARSKit@gmail.com">
+                                <i class="material-icons md-18">mail_outline</i>
+                                <span>DeepCARSKit [at] gmail [dot] com</span>
+                            </a>
+                        </li>
+                    </ul><!-- Ennd header top info -->
+                </div>
+                <div class="col-auto">
+                    <div class="header-top-links">
+                        <!-- Begin social links -->
+              <div class="col-100 social">
+                <a href="https://twitter.com/deepcarskit" target="_blank"><span class="fa fa-twitter"></span></a>
+				<a href="https://github.com/irecsys/DeepCARSKit" target="_blank"><span class="fa fa-github"></span></a>
+				<a href="https://ko-fi.com/deepcarskit" target="_blank"><span class="fas fa-mug-hot ko-fi"></span></a>
+				<a href="https://irecsys.github.io/" target="_blank"><span class="fa fa-university"></span></a>
+              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav><!-- End header top -->
+
+    <!-- Begin header fixed -->
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+                <div class="col-auto d-block d-lg-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+                <div class="col-auto header-fixed-col">
+                    <!-- Begin logo -->
+                    <a href="https://carskit.github.io/" class="logo">
+                        <img src="assets/img/logo.png" width="115" height="36">
+                    </a><!-- End logo -->
+                </div>
+                <div class="col-auto header-fixed-col d-none d-lg-block col-static">
+                    <!-- Begin main menu -->
+					<nav class="main-mnu">
+						 <nav class="navbar navbar-expand-md navbar-light bg-light">
+							  
+							   
+								<div class="collapse navbar-collapse" id="navbarMenu">
+								  <ul class="navbar-nav mx-auto">
+									<li class="nav-item">
+									  <a class="nav-link" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link" href="CARSKit.html">CARSKit</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link" href="DeepCARSKit.html">DeepCARSKit</a>
+									</li>
+									
+									  <li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										  API Doc
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											  <a class="dropdown-item" href="doc/CARSKit/index.html" target="_blank">CARSKit</a>
+											  <div class="dropdown-divider"></div>
+											  <a class="dropdown-item" href="doc/DeepCARSKit/index.html" target="_blank">DeepCARSKit</a>
+										</div>
+									  </li>
+									
+									<li class="nav-item">
+									  <a class="nav-link" href="Sponsors.html">Sponsors</a>
+									</li>				
+									
+									<li class="nav-item">
+									  <a class="nav-link" href="contact-us.html">Contact Us</a>
+									</li>					
+									
+									<li class="nav-item">
+									  <a class="nav-link" href="https://ko-fi.com/deepcarskit" target="_blank"><img src="assets/img/kofi.png" width="60px"/></a>
+									</li>				  
+								  </ul>              
+								</div>
+							  
+							</nav>
+					</nav><!-- End main menu -->
+
+               </div>
+            </div>
+    </nav><!-- End header fixed -->
+</header><!-- End header -->
+
+			<!-- Begin intro -->
+<div class="section-bgc intro">
+    <div class="intro-slider">
+        <div class="intro-item" style="background-image: url(assets/img/intro-img3.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="intro-content">
+                            <div class="section-heading shm-none">
+                                <div class="section-subheading">Your Choice</div>
+                                <h1>Context-Aware <br> Recommendation Solutions</h1>
+                                <p class="section-desc">Context-aware recommender systems (CARS) can be built to adapt the list of item recommendations to different context situations (e.g., time, location, companion, budget, weather, etc.). Users can receive the appropriate recommendations tailored by their preferences in specific contexts.</p>
+                            </div>
+                            <div class="wrap-btn intro-btns">
+                                <a href="Sponsors.html" class="btn btn-with-icon btn-small ripple">
+                                    <span>Sponsor Us</span>
+                                    <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+                                </a>
+                                <a href="contact-us.html" class="btn btn-with-icon btn-border btn-small ripple">
+                                    <span>Contact Us</span>
+                                    <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- End intro -->
+
+<!-- Begin bread crumbs -->
+			<nav class="bread-crumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<ul class="bread-crumbs-list">
+								<li>
+									<a href="index.html">Home</a>
+									<i class="material-icons md-18">chevron_right</i>
+								</li>
+								<li><a href="#!">DeepCARSKit</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav><!-- End bread crumbs -->
+
+			<!-- Begin services -->
+<section class="section services">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading heading-center">
+                    <h2>The DeepCARSKit Library</h2>
+					<br>
+					
+					<div align="center">
+                        <ul class="markdown-list">
+                            <li style="margin-right:45px;">
+                                <a href="https://github.com/irecsys/DeepCARSKit" target="_blank">
+								<img src="assets/img/markdown/Github.svg" height="20px"/>
+                                </a>
+                            </li>
+                            <li style="margin-right:50px;">
+                                <a href="https://github.com/irecsys/DeepCARSKit/blob/main/LICENSE" target="_blank">
+								<img src="assets/img/markdown/MIT.svg" height="20px"/>
+                                </a>
+                            </li>
+                            <li style="margin-right:84px;">
+                                <a href="https://www.python.org/downloads/" target="_blank">
+								<img src="assets/img/markdown/Python.svg" height="20px"/>
+                                </a>
+                            </li>
+                            <li style="margin-right:45px;">
+                                <a href="https://carskit.github.io/" target="_blank">
+								<img src="assets/img/markdown/Website.svg" height="20px"/>
+                                </a>
+                            </li>
+                            <li style="margin-right:155px;">
+                                <a href="https://doi.org/10.1109/ICDMW.2015.222" target="_blank">
+								<img src="assets/img/markdown/DOI_CARSKit.svg" height="20px"/>
+                                </a>
+                            </li>
+                        </ul>
+					</div>
+					
+					<iframe src="https://ghbtns.com/github-btn.html?user=irecsys&repo=deepcarskit&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>					
+					<iframe src="https://ghbtns.com/github-btn.html?user=irecsys&repo=deepcarskit&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+					
+					<p align="left">
+					<br>
+					The <a href="https://github.com/irecsys/DeepCARSKit" target="_blank">DeepCARSKit</a> library is an open-source and deep learning based context-aware recommendation library, where it can be used, modified and distributed under the terms of the MIT License. CARSKit was built upon <a href="https://recbole.io/" target="blank">Recbole</a> v1.0.0 with an environment of <a href="https://www.python.org/downloads/" target="_blank">Python v3.7+</a>, <a href="https://pytorch.org/get-started/locally/" target="_blank">PyTorch v1.7+</a>. It is specifically designed for context-aware recommendations. It implements context-aware recommendation models based on neural networks. The major components in DeepCARSKit can be viewed as follows.<br>
+					</p>
+					<p align="center">
+					<img src="assets/img/Framework_DeepCARSKit.jpg" width="50%"/>
+					</p>
+					<br>
+
+					<p align="left">
+					List of useful resources:
+					<ul align="left">
+					<li>DeepCARSKit: <a href="https://github.com/irecsys/DeepCARSKit" target="_blank">Github</a>, <a href="doc/DeepCARSKit/index.html" target="_blank">API Doc</a></li>
+					<li>Yong Zheng. "<a href="https://doi.org/" target="_blank">DeepCARSKit: A Deep Learning Based Context-Aware Recommendation Library</a>", Software Impacts, Elsevier, 2022</li>
+					<li>Yong Zheng. "<a href="https://doi.org/" target="_blank">DeepCARSKit: A Demo and User Guide</a>", to be released soon.</li>
+					</ul><br>
+					<p align="left">
+					If you used DeepCARSKit, and found it useful, please cite the following work. <br>
+					</p>
+					<div id="example-text" class="example" align="left">
+<pre class="snippet" align="left">
+<button class="btn" data-clipboard-snippet="" data-clipboard-action="copy" data-clipboard-target="#Reference_CARSKit">
+<img class="clippy" width="13" src="assets/img/clippy.svg" alt="Copy to clipboard">
+</button>
+<code class="html hljs xml" id="Reference_CARSKit">
+@article{deepcarskit,
+    title={DeepCARSKit: A Deep Learning Based Context-Aware Recommendation Library},
+    author={Zheng, Yong},
+    journal={Software Impacts},
+    year={2022},
+    publisher={Elsevier}
 }
-.journal{
-color:#6c757d;
-}
-.journal:hover{
-color:#1C8DEF;
-}
+</code>
+</pre>
+				</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section><!-- End services -->
 
-.nospace{margin:0; padding:0; list-style:none;}
-.clear, .group{display:block;}
-.clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
-.clear, .clear::after, .group, .group::after{clear:both;}
+			<!-- Begin advantages -->
+<section class="section section-bgc">
+    <div class="container">
+        <div class="row items">
+            <div class="col-12">
+                <div class="section-heading heading-center">
+                    <div class="section-subheading">some reasons</div>
+                    <h2><i>Why Choose Us</i></h2>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <div class="ini">
+                    <div class="ini-count">01</div>
+                    <div class="ini-info">
+                        <h3 class="ini-heading item-heading-large">Open-Source Libraries</h3>
+                        <div class="ini-desc">
+                            <p>Codes available on the Github platform.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <div class="ini">
+                    <div class="ini-count">02</div>
+                    <div class="ini-info">
+                        <h3 class="ini-heading item-heading-large">Training Modes</h3>
+                        <div class="ini-desc">
+                            <p>Support both hold-out and N-fold cross validations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <div class="ini">
+                    <div class="ini-count">03</div>
+                    <div class="ini-info">
+                        <h3 class="ini-heading item-heading-large">Context-Aware Evaluations</h3>
+                        <div class="ini-desc">
+                            <p>The top-N recommendations can be produced and evaluated for a user in a specific context situation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <div class="ini">
+                    <div class="ini-count">04</div>
+                    <div class="ini-info">
+                        <h3 class="ini-heading item-heading-large">Multiple Metrics</h3>
+                        <div class="ini-desc">
+                            <p>The libraries support multiple evaluations, e.g., MAE, RMSE, Precision, Recall, F1, NDCG, MAP, MRR, etc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <div class="ini">
+                    <div class="ini-count">05</div>
+                    <div class="ini-info">
+                        <h3 class="ini-heading item-heading-large">Unique for CARS</h3>
+                        <div class="ini-desc">
+                            <p>They were specifically designed for context-aware recommendations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <div class="ini">
+                    <div class="ini-count">06</div>
+                    <div class="ini-info">
+                        <h3 class="ini-heading item-heading-large">Popular Libraries</h3>
+                        <div class="ini-desc">
+                            <p>Several univiersities, research labs and companies utilized CARSKit and DeepCARSKit for research!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End advantages -->
 
-.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
+			<!-- Begin reviews -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading heading-center">
+                    <div class="section-subheading">Reviews from our users</div>
+                    <h2><i>What People Say</i></h2>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <!-- Begin reviews item -->
+                <div class="reviews-item item-style">
+                    <div class="reviews-item-header">
+                        <div class="reviews-item-img">
+                            <img data-src="assets/img/users/1.png" class="lazy" alt="">
+                        </div>
+                        <div class="reviews-item-info">
+                            <h4 class="reviews-item-name item-heading">University of Cyprus,<br>Nicosia, Cyprus</h4>
+                            <div class="reviews-item-position">Research Lab</div>
+                        </div>
+                    </div>
+                    <div class="reviews-item-text">
+                        <p>"<i>CARSKit has been selected among other recommendation frameworks in the UbiCARS framework, due to the many efficient recommendation algorithms it offers, its ease<br>of use, and the flexibility with which it can<br>be fine-tuned to work with multi-dimensional data sets.</i>" [<a href="https://doi.org/10.1007/978-3-030-03062-9_3" target="_blank">ref</a>]</p>
+                    </div>
+                </div><!-- End reviews item -->
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 item">
+                <!-- Begin reviews item -->
+                <div class="reviews-item item-style">
+                    <div class="reviews-item-header">
+                        <div class="reviews-item-img">
+                            <img data-src="assets/img/users/4.png" class="lazy" alt="">
+                        </div>
+                        <div class="reviews-item-info">
+                            <h4 class="reviews-item-name item-heading">University of Salerno,<br>Fisciano, Italy</h4>
+                            <div class="reviews-item-position">Research Lab</div>
+                        </div>
+                    </div>
+                    <div class="reviews-item-text">
+                        <p>"<i>CARSKit is freeware and developed through the Java programming language. It is also convenient to use, thanks to the presence of a user guide associated...</i>" [<a href="https://doi.org/10.1007/s12652-021-03438-9" target="_blank">ref</a>]</p>
+                    </div>
+                </div><!-- End reviews item -->
+            </div>
+            <div class="col-lg-4 col-md-12 col-12 item">
+                <!-- Begin reviews item -->
+                <div class="reviews-item item-style">
+                    <div class="reviews-item-header">
+                        <div class="reviews-item-img">
+                            <img data-src="assets/img/users/5.png" class="lazy" alt="">
+                        </div>
+                        <div class="reviews-item-info">
+                            <h4 class="reviews-item-name item-heading">RecSys Community</h4>
+                            <div class="reviews-item-position">The "RS_c" platform</div>
+                        </div>
+                    </div>
+                    <div class="reviews-item-text">
+                        <p>CARSKit is listed as one of the Recommender-System Software Libraries &amp; APIs by "RS_c" which is the central platform for the RecSys community. [<a href="https://recommender-systems.com/resources/software-libraries/" target="_blank">ref</a>]</p>
+                    </div>
+                </div><!-- End reviews item -->
+            </div>
+        </div>
+    </div>
+</section><!-- End reviews -->
 
-.first{margin-left:0; clear:left;}
+		</div>
 
-.one_quarter{width:22.69938650306748%;}
-.one_third{width:31.28834355828221%;}
-.one_half, .two_quarter{width:48.46625766871166%;}
-.two_third{width:65.6441717791411%;}
-.three_quarter{width:74.23312883435584%;}
+		<a class="bff d-none d-md-block" href="https://github.com/irecsys/DeepCARSKit" target="_blank">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="bff-container">
+                    <p>Find us on Github.</p>
+                    <div class="btn btn-border btn-small">
+                        <span>Go to Github</span>
+                        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
 
-</style>
-	
+<!-- Begin footer -->
+<footer class="footer">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items">
+                <div class="col-xl-3 col-lg-3 col-md-5 col-12 item">
+                    <!-- Begin company info -->
+                    <div class="footer-company-info">
+                        <div class="footer-company-top">
+                            <a href="https://carskit.github.io/" class="logo" title="CARSKit">
+                                <img data-src="assets/img/logo-white.png" width="115" height="36" class="lazy">
+                            </a>
+                            <div class="footer-company-desc">
+                                <p>CARSKit and DeepCARSKit were built specifically for context-aware recommendations.</p>
+                            </div>
+                        </div>
+                        <ul class="footer-social-links">
+                            <li>
+                                <a href="https://github.com/irecsys/DeepCARSKit" title="Github" target="_blank">
+                                    <img src="assets/img/social/github.png"  width=40 />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/deepcarskit" title="Twitter" target="_blank">
+                                    <img src="assets/img/social/twitter.png" width=40 />
+                                </a>
+                            </li>							
+                            <li>
+                                <a href="https://ko-fi.com/deepcarskit" title="Ko-Fi" target="_blank">
+                                    <img src="assets/img/social/kofi.png" width=40 />
+                                </a>
+                            </li>					
+                            <li>
+                                <a href="https://irecsys.github.io/" title="University" target="_blank">
+                                    <img src="assets/img/social/univ.png" width=40 />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End company info -->
+                </div>
+                <div class="col-xl-2 offset-xl-1 col-md-3 col-5 col-lg-2 item">
+                    <div class="footer-item">
+                        <p class="footer-item-heading">Menu</p>
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu">
+                                <li><a href="index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="CARSKit.html" class="hover-link" data-title="CARSKit"><span>CARSKit</span></a></li>
+                                <li><a href="DeepCARSKit.html" class="hover-link" data-title="DeepCARSKit"><span>DeepCARSKit</span></a></li>
+                                <li><a href="Sponsors.html" class="hover-link" data-title="Sponsors"><span>Sponsors</span></a></li>
+                                <li><a href="contact-us.html" class="hover-link" data-title="Contact Us"><span>Contact Us</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-7 item">
+                    <div class="footer-item">
+                        <p class="footer-item-heading">What We Offer</p>
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu">
+                                <li><a href="CARSKit.html" class="hover-link" data-title="CARSKit"><span>CARSKit</span></a></li>
+                                <li><a href="doc/CARSKit/index.html" class="hover-link" data-title="CARSKit: API" target="_blank"><span>CARSKit: API</span></a></li>
+                                <li><a href="DeepCARSKit.html" class="hover-link" data-title="DeepCARSKit"><span>DeepCARSKit</span></a></li>
+                                <li><a href="doc/DeepCARSKit/index.html" class="hover-link" data-title="DeepCARSKit: API" target="_blank"><span>DeepCARSKit: API</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-lg-4 col-12 item">
+                    <div class="footer-item">
+                        <p class="footer-item-heading">Our contacts</p>
+                        <ul class="footer-contacts">
+                            <li>
+                                <i class="material-icons md-22">location_on</i>
+                                <div class="footer-contact-info">
+                                    Chicago, Illinois, 60616, USA
+                                </div>
+                            </li>
+                            <li>
+                                <i class="material-icons md-22 footer-contact-email">email</i>
+                                <div class="footer-contact-info">
+                                    <a href="mailto:DeepCARSKit@gmail.com">DeepCARSKit [at] gmail [dot] com</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2022 CARSKit. All rights reserved. Web traffic by <a href="https://analytics.google.com/analytics/web/#/p304420091/" target="_blank">Google Analytics</a>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/lozad.min.js"></script>
+<script src="assets/js/device.js"></script>
+<script src="assets/js/jquery-scrolltofixed-min.js"></script>
+<script src="assets/js/jquery.spincrement.min.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/fontawesome.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
 	
 <script>
-$(document).ready(function(){
-	$('.collapse').hide();
-	$('.hiddencontent').hide();
-	$('.expand, .collapse').bind('click',function(){
-  	$('.collapse').toggle();
-    $('.expand').toggle();
-    $('.hiddencontent').slideToggle();
-  });
-});
+	var clipboard = new ClipboardJS('.btn');
+
+	clipboard.on('success', function(e) {
+		console.info('Action:', e.action);
+		console.info('Text:', e.text);
+		console.info('Trigger:', e.trigger);
+
+		e.clearSelection();
+	});
+
+	clipboard.on('error', function(e) {
+		console.error('Action:', e.action);
+		console.error('Trigger:', e.trigger);
+	});
 </script>
-  </head>
-  <body>
-    
-
-    <div class="wrap">
-
-      <header role="banner">
-        <div class="top-bar">
-          <div class="container">
-            <div class="row">
-              <div class="col-9 social">
-				<a href="https://github.com/irecsys" target="_blank"><span class="fa fa-github"></span></a>
-              </div>
-              <div class="col-3 search-top">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container logo-wrap">
-          <div class="row pt-5">
-            <div class="col-12 text-center">
-              <a class="absolute-toggle d-block d-md-none" data-toggle="collapse" href="#navbarMenu" role="button" aria-expanded="false" aria-controls="navbarMenu"><span class="burger-lines"></span></a>
-              <!-- <h1 class="site-logo"><a href="index.html">Wordify</a></h1> -->
-            </div>
-          </div>
-        </div>
-        
-        <nav class="navbar navbar-expand-md  navbar-light bg-light">
-          <div class="container">
-           
-            <div class="collapse navbar-collapse" id="navbarMenu">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-				
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  DeepCARSKit
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						  <a class="dropdown-item" href="DeepCARSKit.html">DeepCARSKit</a>
-						  <div class="dropdown-divider"></div>
-						  <a class="dropdown-item" href="doc/DeepCARSKit/index.html" target="_blank">API Doc</a>
-					</div>
-				  </li>
-				
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  CARSKit
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						  <a class="dropdown-item" href="CARSKit.html">CARSKit</a>
-						  <div class="dropdown-divider"></div>
-						  <a class="dropdown-item" href="doc/CARSKit/index.html" target="_blank">API Doc</a>
-					</div>
-				  </li>
-				  
-				  
-                <li class="nav-item">
-                  <a class="nav-link" href="Sponsors.html">Sponsors</a>
-                </li>
-				  
-              </ul>
-              
-            </div>
-          </div>
-        </nav>
-      </header>
-      <!-- END header -->
-
-      <section class="site-section pt-5 pb-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-
-              <div class="owl-carousel owl-theme home-slider">
-				
-				<div>
-                   <a href="https://recsys.acm.org" target="_blank" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/head_tech.jpg'); "> 
-                    <div class="text half-to-full">
-                      <h3>Context-Aware Recommender Systems</h3>
-                      <p>Recommender systems typically produce a list of recommendations tailored to user preferences. Context-Aware Recommender Systems (CARS) can be built to adapt the recommendations to contextual situations, since user preferences may vary from contexts to contexts.</p>                        
-                    </div>
-                  </a>
-                </div>
-				
-				
-				
-				
-				
-
-              </div>
-              
-            </div>
-          </div>
-          
-        </div>
-
-
-      </section>
-      <!-- END section -->
-
-      <section class="site-section py-sm">
-        <div class="container">
-		
-		
-          <div class="row">
-            <div class="col-md-9">
-              <h5 class="mb-4"><a href="https://github.com/irecsys/DeepCARSKit" target="_blank">DeepCARSKit</a>: A Deep Learning Based Context-Aware Recommendation Library<hr/></h5>
-            </div>
-          </div>
-          <div class="row blog-entries">
-			<div class="col-md-12 col-lg-12 main-content">
-			More details coming soon.
-			
-			</div>
-		  </div> 		  
-		  <br/>
-		  
-		  
-		  <div class="row">
-            <div class="col-md-6">
-              <h5 class="mb-4">Sponsors<hr/></h5>
-            </div>
-          </div>
-          <div class="row blog-entries">
-			  <div class="col-md-12 col-lg-12 main-content">			  
-				  <ul class="nospace group">
-				  
-					<li class="three_quarter first">
-					  <p style="text-align: left; vertical-align: middle">
-					   If you are interested in sponsorship, let us know. The major contact is DeepCARSKit [at] gmail [dot] com.
-					  </p>
-					  <p style="text-align: left; vertical-align: middle">
-					   Currently, we received supports from Google Cloud which enables us to develop, test and evaluate the DeepCARSKit library by using GPU resources.
-					  </p>
-					</li>
-
-					<li class="one_quarter">
-					   <h5>Sponsors</h5>
-					   <p style="text-align: left">
-					   <a href="https://cloud.google.com/" target="_blank"><img src="images/sponsor_gcp.png" alt="" style="width:105%; margin-top:15px"></a>
-					   </p>
-				  </li>
-				  
-				</ul>
-		  </div>
-		  </div>		  
-		  <br/>
-				  
-				
-		  </div>
-		  </div>		  
-		  <br/>
-
-            <!-- END main-content -->
-
-        </div>
-      </section>
-    
-      <footer class="site-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p class="small">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made by <a href="https://colorlib.com" target="_blank" >Colorlib</a>. Web traffic by <a href="https://analytics.google.com" target="_blank">Google Analytics</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-			<p class="small"><img src="images/footsentence.png"  width="1000px" border="0" /></p>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- END footer -->
-
-    </div>
-    
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
-
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-
-    
-    <script src="js/main.js"></script>
-  </body>
-</html>
+</body></html>
