@@ -3,6 +3,8 @@
 
 <head>
 
+    <link rel="stylesheet" href="assets/css/clip.css">
+
     <meta charset="utf-8">
 
     <title>CARSKit - Libraries for Context-Aware Recommendations</title>
@@ -22,7 +24,6 @@
 
 <link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
-
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/style2.css">
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -214,6 +215,25 @@
 					<li>Yong Zheng, Bamshad Mobasher, Robin Burke. "<a href="https://doi.org/10.1109/ICDMW.2015.222" target="_blank">CARSKit: A Java-Based Context-aware Recommendation Engine</a>", Proceedings of the 15th IEEE International Conference on Data Mining (ICDM) Workshops, pp. 1668-1671, Atlantic City, NJ, USA, Nov 2015</li>
 					<li>Yong Zheng. "<a href="https://arxiv.org/abs/1511.03780" target="_blank">A User's Guide to CARSKit</a>", arXiv preprint arXiv:1511.03780, 2015.</li>
 					</ul><br>
+					<p align="left">
+					If you used CARSKit, and found it useful, please cite the following work. <br>
+					</p>
+					<div id="example-text" class="example" align="left">
+<pre class="snippet" align="left">
+<button class="btn" data-clipboard-snippet="" data-clipboard-action="copy" data-clipboard-target="#Reference_CARSKit">
+<img class="clippy" width="13" src="assets/img/clippy.svg" alt="Copy to clipboard">
+</button>
+<code class="html hljs xml" id="Reference_CARSKit">
+@inproceedings{zheng2015carskit,
+  title={Carskit: A java-based context-aware recommendation engine},
+  author={Zheng, Yong and Mobasher, Bamshad and Burke, Robin},
+  booktitle={2015 IEEE International Conference on Data Mining Workshop},
+  pages={1668--1671},
+  year={2015},
+  organization={IEEE}
+}
+</code>
+</pre>
 				</p>
                 </div> 
             </div>
@@ -495,6 +515,23 @@
 <script src="assets/libs/spincrement/jquery.spincrement.min.js"></script>
 <script src="assets/libs/jquery-validation-1.19.3/jquery.validate.min.js"></script>
 <script src="assets/js/custom.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script> 
+	<script src="assets/js/clipboard.min.js"></script>
 	
+<script>
+	var clipboard = new ClipboardJS('.btn');
+
+	clipboard.on('success', function(e) {
+		console.info('Action:', e.action);
+		console.info('Text:', e.text);
+		console.info('Trigger:', e.trigger);
+
+		e.clearSelection();
+	});
+
+	clipboard.on('error', function(e) {
+		console.error('Action:', e.action);
+		console.error('Trigger:', e.trigger);
+	});
+</script>
 </body></html>
