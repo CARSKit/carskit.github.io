@@ -166,32 +166,56 @@
         <div class="row">
             <div class="col-12">
                 <div class="section-heading heading-center">
-                    <h2><i>Open-Source Libraries</i></h2>
+                    <h2>The CARSKit Library</h2>
+					<br>
+					<div align="center">
+                        <ul class="markdown-list">
+                            <li style="margin-right:65px;">
+                                <a href="https://perso.crans.org/besson/LICENSE.html" target="_blank">
+								<img src="assets/img/markdown/GPL.svg" height="20px"/>
+                                </a>
+                            </li>
+                            <li style="margin-right:30px;">
+                                <a href="https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html" target="_blank">
+								<img src="assets/img/markdown/Java.svg" height="20px"/>
+                                </a>
+                            </li>
+                            <li style="margin-right:45px;">
+                                <a href="https://carskit.github.io/" target="_blank">
+								<img src="assets/img/markdown/Website.svg" height="20px"/>
+                                </a>
+                            </li>
+                            <li style="margin-right:155px;">
+                                <a href="https://doi.org/10.1109/ICDMW.2015.222" target="_blank">
+								<img src="assets/img/markdown/DOI_CARSKit.svg" height="20px"/>
+                                </a>
+                            </li>
+                        </ul>
+					</div>
+					<p align="left">
+					<br>
+					The <a href="https://github.com/irecsys/CARSKit" target="_blank">CARSKit</a> library is an open-source and Java-based context-aware recommendation engine, where it can be used, modified and distributed under the terms of the GNU General Public License. (Java version 1.7 or higher required). It is specifically designed for context-aware recommendations. It implements context-aware collaboative filtering (CF) algorithms based on traditional CF, e.g., user-based CF, matrix factorization, sparse linear methods, etc. The framework of CARSKit can be viewed as follows.<br>
+					</p>
+					<p align="center">
+					<img src="assets/img/Framework_CARSKit.png" width="70%"/>
+					</p>
+					<br>
+					<p align="left">
+					There are two categories of recommendation algorithms included in the CARSKit library:<br>
+					<ul align="left">
+					<li><b>Traditional recommendation algorithms</b>: The implementations of those algorithms (such as UserKNN, BiasedMF, SVD++, SLIM, etc) are from LibRec V1.3. Those algorithms can be used in two ways: 1). run a traditional recommendation algorithm directly on the context-aware data set to compete with the context-aware recommendation algorithms; 2). run contextual recommendation algorithms based on transformation, e.g., run a traditional recommendation algorithm after data transformation (e.g., by item splitting).</li>
+					<li><b>Context-aware recommendation algorithms</b>: CARSKit simply divides it into two categories: Transformation Algorithms and Adaptation Algorithms. The transformation algorithms try to convert the mulidimensional recommendation problem into traditional 2-dimensional problem, so that the traditional recommendation algorithms can still be used. In contrast to those algorithms based on transformation algorithms, the adaptation algorithms focus on their effect on building algorithms by adapting to the multidimensional rating space. Most of the algorithms inside belong to the contextual modeling algorithms, such as Context-aware Matrix Facatorization (CAMF), Tensor Factorization (TF), Contextual Sparse Linear Method (CSLIM), Factorization Machines (FM), etc.</li>
+					</ul>
+					</p>
+					<p align="left">
+					List of useful resources:
+					<ul align="left">
+					<li>CARSKit: <a href="https://github.com/irecsys/CARSKit" target="_blank">Github</a>, <a href="doc/CARSKit/index.html" target="_blank">API Doc</a></li>
+					<li>Yong Zheng, Bamshad Mobasher, Robin Burke. "<a href="https://doi.org/10.1109/ICDMW.2015.222" target="_blank">CARSKit: A Java-Based Context-aware Recommendation Engine</a>", Proceedings of the 15th IEEE International Conference on Data Mining (ICDM) Workshops, pp. 1668-1671, Atlantic City, NJ, USA, Nov 2015</li>
+					<li>Yong Zheng. "<a href="https://arxiv.org/abs/1511.03780" target="_blank">A User's Guide to CARSKit</a>", arXiv preprint arXiv:1511.03780, 2015.</li>
+					</ul><br>
+				</p>
                 </div> 
-            </div>
-            <div class="col-lg-6 col-md-6 col-12 item">
-                <a href="CARSKit.html" class="iitem item-style">
-                    <div class="iitem-icon">
-                        <i class="material-icons material-icons-Handyman md-48">forum</i>
-                    </div>
-                    <div class="iitem-icon-bg">
-                        <i class="material-icons material-icons-outlined">forum</i>
-                    </div>
-                    <h3 class="iitem-heading item-heading-large">CARSKit</h3>
-                    <div class="iitem-desc">CARSKit is a Java Based Context-Aware Recommendation Engine. It implements context-aware collaboative filtering (CF) algorithms based on traditional CF, e.g., user-based CF, matrix factorization, sparse linear methods, etc.</div>
-                </a>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12 item">
-                <a href="DeepCARSKit.html" class="iitem item-style">
-                    <div class="iitem-icon">
-                        <i class="material-icons material-icons-outlined md-48">open_in_new</i>
-                    </div>
-                    <div class="iitem-icon-bg">
-                        <i class="material-icons material-icons-outlined">open_in_new</i>
-                    </div>
-                    <h3 class="iitem-heading item-heading-large">DeepCARSKit</h3>
-                    <div class="iitem-desc">DeepCARSKit is a Deep Learning Based Context-Aware Recommendation Library. It implements context-aware recommendation models based on neural networks, e.g., models built based on neural matrix factorization.</div>
-                </a>
             </div>
         </div>
     </div>
@@ -342,83 +366,9 @@
     </div>
 </section><!-- End reviews -->
 
-			<!-- Begin latest news -->
-<section class="section section-bgc">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-heading heading-center">
-                    <div class="section-subheading">More info about</div>
-                    <h2><i>Current and Past Sponsors</i></h2>
-                </div> 
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin news item -->
-                <article class="news-item item-style">
-                    <a href="https://cloud.google.com/" class="news-item-img" target="_blank">
-                        <img data-src="assets/img/sponsors/GCP.png" class="lazy" alt="">
-                    </a>
-                    <div class="news-item-info">
-                        <div class="news-item-date">2022 - 2023</div>
-                        <h3 class="news-item-heading item-heading">
-                            <a href="https://cloud.google.com/" title="Benefits Of Async/Await">Google Cloud Platform</a>
-                        </h3>
-                        <div class="news-item-desc">
-                            <p>We thank the support and grant by Google Cloud Platform which provides us the cloud
-computing resources (e.g., GPU) to test and evaluate this library.</p>
-                        </div>
-                    </div>
-                </article><!-- End news item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin news item -->
-                <article class="news-item item-style">
-                    <a href="Sponsors.html" class="news-item-img">
-                        <img data-src="assets/img/sponsors/CFS.png" class="lazy"  alt="">
-                    </a>
-                    <div class="news-item-info">
-                        <div class="news-item-date">2022 - ?</div>
-                        <h3 class="news-item-heading item-heading">
-                            <a href="Sponsors.html" title="Key Considerations Of IPaaS">Call for Sponsors</a>
-                        </h3>
-                        <div class="news-item-desc">
-                            <p>Contact us, if you are interested in.</p>
-                        </div>
-                    </div>
-                </article><!-- End news item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin news item -->
-                <article class="news-item item-style">
-                    <a href="Sponsors.html" class="news-item-img">
-                        <img data-src="assets/img/sponsors/CFS.png" class="lazy"  alt="">
-                    </a>
-                    <div class="news-item-info">
-                        <div class="news-item-date">2022 - ?</div>
-                        <h3 class="news-item-heading item-heading">
-                            <a href="Sponsors.html" title="Key Considerations Of IPaaS">Call for Sponsors</a>
-                        </h3>
-                        <div class="news-item-desc">
-                            <p>Contact us, if you are interested in.</p>
-                        </div>
-                    </div>
-                </article><!-- End news item -->
-            </div>
-            <div class="col-12">
-                <div class="section-btns justify-content-center">
-                    <a href="Sponsors.html" class="btn btn-with-icon btn-w240 ripple">
-                        <span>Call for Sponsors</span>
-                        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- End latest news -->
-
 		</div>
 
-		<a class="bff d-none d-md-block" href="https://github.com/irecsys/DeepCARSKit" target="_blank">
+		<a class="bff d-none d-md-block" href="https://github.com/irecsys/CARSKit" target="_blank">
     <div class="container">
         <div class="row">
             <div class="col">
